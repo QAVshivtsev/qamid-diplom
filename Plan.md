@@ -36,45 +36,13 @@
 
 -	Исследование функционала приложения: 2 часа.
 -	Прогон всех тестовых сценариев: 3,5 часа (205 минут).
--	Количество автоматизируемых сценариев: около 30.
+-	Количество тестовых сценариев 90.
+-	Количество автоматизируемых сценариев: около 25.
 -	Среднее время написания одного автоматизируемого сценария: 20 минут.
--	Общее время на написание автоматизируемых сценариев: 600 минут (10 часов).
--	Общая продолжительность тестирования: примерно 42 часа (без учёта времени на подготовку документации).
+-	Общее время на написание автоматизируемых сценариев: 500 минут (8 часов 20 минут).
+-	Общая продолжительность тестирования: примерно 40 часов (без учёта времени на подготовку документации).
 -	Увеличение времени при средних рисках: до 44—46 часов.
 	
-Автоматизируемые сценарии
-
-1.	testLoginWithValidCredentials: Авторизация с корректными данными.
-2.	testLoginWithInvalidCredentials: Авторизация с некорректными данными.
-3.	testViewNewsOnMainPage: Просмотр новостей на странице Main.
-4.	testViewNewsOnNewsPage: Просмотр новостей на странице News.
-5.	testApplyFiltersOnNewsPage: Применение фильтров на странице News.
-6.	testSortNewsOnNewsPage: Сортировка новостей на странице News.
-7.	testNavigateToNewsControlPanel: Переход на страницу News Control Panel.
-8.	testEditNewsInControlPanel: Редактирование новости на странице Control Panel.
-9.	testDeleteNewsInControlPanel: Удаление новости на странице Control Panel.
-10.	testCreateNewsInControlPanel: Создание новости на странице Control Panel.
-11.	testViewAboutPage: Просмотр информации на странице About.
-12.	testNavigateToOurMissionPage: Переход на страницу Our Mission.
-13.	testInteractWithQuotesOnMissionPage: Взаимодействие с цитатами на странице Our Mission.
-14.	testNavigateBetweenPagesUsingMenu: Навигация между страницами с помощью кнопки меню.
-15.	testLogoutFromApplication: Выход из приложения и завершение авторизованной сессии.
-16.	testCheckNewsDisplayInDarkMode: Проверка отображения новостей в тёмной теме.
-17.	testCheckQuotesDisplayInDarkMode: Проверка отображения цитат в тёмной теме.
-18.	testCheckAboutPageDisplayInDarkMode: Проверка отображения страницы About в тёмной теме.
-19.	testCheckNewsFilteringByCategory: Фильтрация новостей по категории.
-20.	testCheckNewsFilteringByDate: Фильтрация новостей по дате.
-21.	testCheckNewsSortingByDate: Сортировка новостей по дате.
-22.	testCheckNewsSortingByTitle: Сортировка новостей по заголовку.
-23.	testCheckNewsSearchFunctionality: Проверка функциональности поиска новостей.
-24.	testCheckNewsRefreshButton: Проверка функциональности кнопки обновления новостей.
-25.	testCheckNewsDetailsDisplay: Проверка отображения деталей новости.
-26.	testCheckQuoteExpansionAndCollapse: Проверка разворачивания и сворачивания цитат.
-27.	testCheckQuoteDisplayInDifferentOrientations: Проверка отображения цитат в разных ориентациях экрана.
-28.	testCheckAboutPageLinks: Проверка ссылок на странице About.
-29.	testCheckLogoutConfirmation: Проверка подтверждения выхода из приложения.
-30.	testCheckNewsDisplayAfterEditing: Проверка отображения новости после редактирования.
-
 Основная направленность тестирования
 
 Цель тестирования — обеспечить высокое качество и надёжность приложения V Hospice. 
