@@ -44,35 +44,65 @@
 -	Увеличение времени при средних рисках: до 44—46 часов.
 
 Список автоматизируемых сценариев
+
 Раздел About 
-1. Проверка навигации на страницу About. Название теста в Android Studio: testNavigateToAboutPage
+
+1. Проверка навигации на страницу About. Название теста в Android Studio: testNavigateToAboutPage 
+
 2. Проверка отображения ссылок. Название теста в Android Studio: testAboutPageLinksDisplay
+
 3. Проверка функциональности ссылки 'Условия использования'. Название теста в Android Studio: openingTheTermsOfUseLink
+
 4. Проверка отображения шапки на странице About. Название теста в Android Studio: testAboutPageHeaderDisplay
-Авторизация и безопасность   
-5. Проверка авторизации с корректными данными. Название теста в Android Studio: testSuccessfulLogin
-6. Проверка авторизации с некорректными данными. Название теста в Android Studio: testFailedLogin
-7. Проверка отображения сообщений об ошибках при пустых полях. Название теста в Android Studio: testEmptyFieldsErrorMessage
+
+Авторизация и безопасность    
+
+5. Проверка авторизации с корректными данными. Название теста в Android Studio: testSuccessfulLogin 
+
+6. Проверка авторизации с некорректными данными. Название теста в Android Studio: testFailedLogin 
+
+7. Проверка отображения сообщений об ошибках при пустых полях. Название теста в Android Studio: testEmptyFieldsErrorMessage 
+
 Раздел Main
+
 8. Проверка отображения панели News. Название теста в Android Studio: testNewsPanelDisplay
+
 9. Проверка навигации на страницу новостей при нажатии на All News. Название теста в Android Studio: testNavigateToNewsPage
+
 Работа с новостями 
+
 10. Проверка отображения новостей на странице новостей. Название теста в Android Studio: testNewsDisplayOnNewsPage
+
 11. Проверка отображения деталей новости. Название теста в Android Studio: testNewsDetailsDisplay
+
 12. Проверка сортировки новостей на странице новостей. Название теста в Android Studio: testNewsCardOrderChangesAfterSortButtonClick
+
 13. Проверка, что страница фильтрации открывается. Название теста в Android Studio: testFilterPageOpensAfterFilterButtonClick
+
 14. Проверка фильтрации новостей по категории. Название теста в Android Studio: testFilterNewsByCategory
+
 15. Проверка навигации на страницу управления новостями. Название теста в Android Studio: testNavigateToNewsManagement
+
 16. Проверка создания новости. Название теста в Android Studio: testCreateNews
+
 17. Проверка сортировки новостей на странице управления новостями. Название теста в Android Studio: testNewsSortingOnNewsManagementPage
+
 18. Проверка, открытия страницы фильтров новостей на странцие управления новостями. Название теста в Android Studio: testOpeningNewsFiltersPageOnNewsManagementPage
+
 19. Проверка, что фильтр отображает новости выбранной категории на странице управления новостями
+
 20. Проверка удаления новости. Название теста в Android Studio: testDeleteNews
+
 Работа с цитатами
+
 21. Проверка перенаправления на страницу цитат. Название теста в Android Studio: testNavigateToQuotesPage
+
 22. Проверка разворачивания цитат. Название теста в Android Studio: expandQuoteOnExpandButton
+
 23. Проверка сворачивания цитат. Название теста в Android Studio: collapsingQuoteToExpandButton
+
 24. Проверка видимости списка цитат. Название теста в Android Studio: checkingTheVisibilityOfAListOfQuotes
+
 25. Проверка, список цитат содержит необходимое количество элементов. Название теста в Android Studio: listOfQuotesRequiredNumberOfElements
 
  
