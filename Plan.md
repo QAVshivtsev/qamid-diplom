@@ -37,34 +37,43 @@
 -	Исследование функционала приложения: 2 часа.
 -	Прогон всех тестовых сценариев: 3,5 часа (205 минут).
 -	Количество тестовых сценариев 90.
--	Количество автоматизируемых сценариев: около 20.
+-	Количество автоматизируемых сценариев: 25.
 -	Среднее время написания одного автоматизируемого сценария: 30 минут.
--	Общее время на написание автоматизируемых сценариев: 600 минут (10 часов).
--	Общая продолжительность тестирования: примерно 40 часов (без учёта времени на подготовку документации).
+-	Общее время на написание автоматизируемых сценариев: 750 минут (12 часов 30 минут).
+-	Общая продолжительность тестирования: примерно 42 часа (без учёта времени на подготовку документации).
 -	Увеличение времени при средних рисках: до 44—46 часов.
 
 Список автоматизируемых сценариев
-
-1. Проверка авторизации с корректными данными. Название теста в Android Studio: testSuccessfulLogin
-2. Проверка авторизации с некорректными данными. Название теста в Android Studio: testFailedLogin
-3. Проверка навигации между страницами с помощью меню. Название теста в Android Studio: testMenuNavigation
-4. Проверка навигации на страницу About. Название теста в Android Studio: testNavigateToAboutPage
-5. Проверка навигации на страницу управления новостями. Название теста в Android Studio: testNavigateToNewsManagement
-6. Проверка неактивности пункта списка текущего окна. Название теста в Android Studio: testCurrentWindowMenuItemInactive
-7. Проверка отображения выпадающего списка. Название теста в Android Studio: testDropdownMenuDisplay
-8. Проверка отображения выпадающего списка. Название теста в Android Studio: testDropdownMenuDisplay
-9. Проверка отображения логотипа приложения. Название теста в Android Studio: testAppLogoDisplay
-10. Проверка отображения новостей на главной странице. Название теста в Android Studio: testNewsDisplayOnHomePage
-11. Проверка отображения новостей на странице новостей. Название теста в Android Studio: testNewsDisplayOnNewsPage
-12. Проверка отображения полей ввода в разных ориентациях экрана. Название теста в Android Studio: testInputFieldsOrientation
-13. Проверка отображения ссылок. Название теста в Android Studio: testAboutPageLinksDisplay
-14. Проверка отображения элементов при смене ориентации экрана. Название теста в Android Studio: testHeaderElementsOrientation
-15. Проверка перенаправления на страницу цитат. Название теста в Android Studio: testNavigateToQuotesPage
-16. Проверка разворачивания и сворачивания цитат. Название теста в Android Studio: testQuoteExpandCollapse
-17. Проверка создания новости. Название теста в Android Studio: testCreateNews
-18. Проверка сортировки новостей. Название теста в Android Studio: testNewsSorting
-19. Проверка функциональности кнопки All News. Название теста в Android Studio: testAllNewsButtonFunctionality
-20. Проверка функциональности кнопки Log Out. Название теста в Android Studio: testLogoutButtonFunctionality
+Раздел About 
+1. Проверка навигации на страницу About. Название теста в Android Studio: testNavigateToAboutPage
+2. Проверка отображения ссылок. Название теста в Android Studio: testAboutPageLinksDisplay
+3. Проверка функциональности ссылки 'Условия использования'. Название теста в Android Studio: openingTheTermsOfUseLink
+4. Проверка отображения шапки на странице About. Название теста в Android Studio: testAboutPageHeaderDisplay
+Авторизация и безопасность   
+5. Проверка авторизации с корректными данными. Название теста в Android Studio: testSuccessfulLogin
+6. Проверка авторизации с некорректными данными. Название теста в Android Studio: testFailedLogin
+7. Проверка отображения сообщений об ошибках при пустых полях. Название теста в Android Studio: testEmptyFieldsErrorMessage
+Раздел Main
+8. Проверка отображения панели News. Название теста в Android Studio: testNewsPanelDisplay
+9. Проверка навигации на страницу новостей при нажатии на All News. Название теста в Android Studio: testNavigateToNewsPage
+Работа с новостями 
+10. Проверка отображения новостей на странице новостей. Название теста в Android Studio: testNewsDisplayOnNewsPage
+11. Проверка отображения деталей новости. Название теста в Android Studio: testNewsDetailsDisplay
+12. Проверка сортировки новостей на странице новостей. Название теста в Android Studio: testNewsCardOrderChangesAfterSortButtonClick
+13. Проверка, что страница фильтрации открывается. Название теста в Android Studio: testFilterPageOpensAfterFilterButtonClick
+14. Проверка фильтрации новостей по категории. Название теста в Android Studio: testFilterNewsByCategory
+15. Проверка навигации на страницу управления новостями. Название теста в Android Studio: testNavigateToNewsManagement
+16. Проверка создания новости. Название теста в Android Studio: testCreateNews
+17. Проверка сортировки новостей на странице управления новостями. Название теста в Android Studio: testNewsSortingOnNewsManagementPage
+18. Проверка, открытия страницы фильтров новостей на странцие управления новостями. Название теста в Android Studio: testOpeningNewsFiltersPageOnNewsManagementPage
+19. Проверка, что фильтр отображает новости выбранной категории на странице управления новостями
+20. Проверка удаления новости. Название теста в Android Studio: testDeleteNews
+Работа с цитатами
+21. Проверка перенаправления на страницу цитат. Название теста в Android Studio: testNavigateToQuotesPage
+22. Проверка разворачивания цитат. Название теста в Android Studio: expandQuoteOnExpandButton
+23. Проверка сворачивания цитат. Название теста в Android Studio: collapsingQuoteToExpandButton
+24. Проверка видимости списка цитат. Название теста в Android Studio: checkingTheVisibilityOfAListOfQuotes
+25. Проверка, список цитат содержит необходимое количество элементов. Название теста в Android Studio: listOfQuotesRequiredNumberOfElements
 
  
 Основная направленность тестирования
