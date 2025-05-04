@@ -25,13 +25,20 @@
 3. **Синхронизируйте проект с Gradle**:
    - Убедитесь, что все зависимости загружены и проект синхронизирован с Gradle. Для этого нажмите на кнопку «Sync Project with Gradle Files» в верхней панели Android Studio.
 
-4. **Запуск тестов**:
+4. **Запуск тестов по отделбности**:
    - В Android Studio откройте панель «Project».
-   - Перейдите в папку `qamid-diplom\app\src\androidTest\java\ru\iteco\fmhandroid\ui`.
+   - Перейдите в папку `qamid-diplom\app\src\androidTest\java\ru\iteco\fmhandroid\ui`
    - Найдите классы AuthorizationPageTest, MainPageTest, NewsPageTest, AboutPageTest, OurMissionPageTest.
    - Щелкните правой кнопкой мыши по очереди по каждому классу и выберите «Run 'название класса'».
+  
+5. **Запуск всех тестов**:
+   - В Android Studio откройте панель «Project».
+   - Перейдите в Terminal
+   - Запустите тесты с помощью Gradle введя команду : ./gradlew connectedAndroidTest
+  
 
-5. **Просмотр результатов**:
+
+6. **Просмотр результатов**:
    - После завершения выполнения тестов, результаты будут отображены в панели «Run» в нижней части Android Studio.
    - Проверьте результаты тестов и убедитесь, что все тесты прошли успешно.
      
