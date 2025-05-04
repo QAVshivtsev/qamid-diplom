@@ -107,6 +107,12 @@ public class NewsPageTest {
         creatingNewsPage.insertNewsPublTimeByWidgetNoOffset();
         // Сохранение новости
         creatingNewsPage.pressSaveToCreateNews();
+        int cardPos = newsControlPanelPage.checkIfNewsListHasDescription(true, description);
+        newsControlPanelPage.scrollToCardAtPosition(cardPos);
+        onView(withId(newsControlPanelPage.getAllNewsCardsBlockList()))
+                .check(matches(RecyclerCustomMatcher
+                        .atPosition(cardPos, hasDescendant(withSubstring(title)))));
+
     }
 
     @Test
@@ -195,11 +201,6 @@ public class NewsPageTest {
         String testDescr = testNewsData.createRandomNewsDescription();
         String testCategory = testNewsData.createRandomNewsCategory();
         createNews(testCategory, testTitle, testDescr);
-        int cardPos = newsControlPanelPage.checkIfNewsListHasDescription(true, testDescr);
-        newsControlPanelPage.scrollToCardAtPosition(cardPos);
-        onView(withId(newsControlPanelPage.getAllNewsCardsBlockList()))
-                .check(matches(RecyclerCustomMatcher
-                        .atPosition(cardPos, hasDescendant(withSubstring(testTitle)))));
     }
 
     @Test
