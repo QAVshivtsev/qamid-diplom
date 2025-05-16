@@ -199,4 +199,3 @@ public class DataHelper {
                 testTools[faker.random().nextInt(0, testTools.length - 1)] + ".";
     }
 }
-
